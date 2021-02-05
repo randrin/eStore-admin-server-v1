@@ -9,6 +9,18 @@ spring:
     test-connection: true
   boot:
     admin:
+      ui:
+        brand: "<img src='assets/img/logo.png'><span>RandrinoDev</span>"
+        title: 'Microservices Portal RandrinoDev'
+        favicon: 'assets/img/logo.png'
+        login-icon: 'assets/img/logo.png'
+        available-languages:
+          - fr
+          - it
+          - en
+        view-settings:
+          - name: 'about'
+            enbled: false
       notify:
         mail:
           to:
