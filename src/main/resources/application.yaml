@@ -1,0 +1,18 @@
+server:
+  port: 8081
+spring:
+  mail:
+    host: smtp.mailtrap.io
+    port: 2525
+    username: d6f71a307039bd
+    password: ba03df302887b8
+    test-connection: true
+  boot:
+    admin:
+      notify:
+        mail:
+          to:
+            - nzeukangrandrin@gmail.com
+          ignore-changes:
+            - ''
+
